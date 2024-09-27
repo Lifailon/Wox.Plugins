@@ -9,7 +9,7 @@ All plugins are publish in the [plugin repository](http://www.wox.one/u/70837), 
     Wox.Plugin.MyMemory
 </h1>
 
-Plugin for fast text translation in MyMemory via free api.
+Plugin for fast text translation in MyMemory via free api. Supports translation between Russian and English by default.
 
 The hotkey is used: `!`
 
@@ -46,5 +46,5 @@ The keyword is used: `git`
 Installation: `wpm install GitHub.Search` from [Wox Plugins Repository](http://www.wox.one/plugin/429).
 
 <h1 align="center">
-    <img src="src/Wox.Plugin.LanguageTool/githubsearch.jpg"/>
+    <img src="src/Wox.Plugin.GitHub.Search/githubsearch.jpg"/>
 </h1>

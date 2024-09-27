@@ -9,7 +9,7 @@ All plugins are publish in the [plugin repository](http://www.wox.one/u/70837), 
     Wox.Plugin.MyMemory
 </h1>
 
-Plugin for fast text translation in MyMemory via free api. Supports translation between Russian and English by default.
+Fast text translation in MyMemory via free api. Supports translation between Russian and English by default.
 
 The hotkey is used: `!`
 

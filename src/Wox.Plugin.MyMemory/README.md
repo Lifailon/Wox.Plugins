@@ -1,5 +1,5 @@
 ## Wox.Plugin.MyMemory
 
-Plugin for fast text translation in MyMemory via free api.
+Fast text translation in MyMemory via free api. Supports translation between Russian and English by default.
 
 The hotkey is used: `!`

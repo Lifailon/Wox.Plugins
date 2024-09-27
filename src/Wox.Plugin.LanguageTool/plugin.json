@@ -1,0 +1,12 @@
+{
+    "ID": "fa6e1c66-445e-47cd-b48b-ed313203fe89",
+    "ActionKeyword": "@",
+    "Name": "LanguageTool",
+    "Description": "Check texts for style and grammar via LanguageTool api",
+    "Author":"Lifailon",
+    "Version": "0.1.0",
+    "Language": "Python",
+    "Website":"https://github.com/Lifailon/Wox.Plugins",
+    "IcoPath": "logo.png",
+    "ExecuteFileName": "main.py"
+}

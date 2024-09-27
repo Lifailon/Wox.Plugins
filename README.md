@@ -13,7 +13,7 @@ Plugin for fast text translation in MyMemory via free api.
 
 The hotkey is used: `!`
 
-Installation: `wpm install MyMemory`
+Installation: `wpm install MyMemory` from [Wox Plugins Repository](http://www.wox.one/plugin/427).
 
 <h1 align="center">
     <img src="src/Wox.Plugin.MyMemory/mymemory.jpg"/>

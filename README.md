@@ -33,3 +33,18 @@ Installation: `wpm install LanguageTool` from [Wox Plugins Repository](http://ww
 <h1 align="center">
     <img src="src/Wox.Plugin.LanguageTool/languagetool.jpg"/>
 </h1>
+
+<h1 align="left">
+    <img src="src/Wox.Plugin.GitHub.Search/logo.png" width="32" />
+    Wox.Plugin.GitHub.Search
+</h1>
+
+Search repositories on GitHub via api.
+
+The keyword is used: `git`
+
+Installation: `wpm install GitHub.Search` from [Wox Plugins Repository](http://www.wox.one/plugin/429).
+
+<h1 align="center">
+    <img src="src/Wox.Plugin.LanguageTool/githubsearch.jpg"/>
+</h1>

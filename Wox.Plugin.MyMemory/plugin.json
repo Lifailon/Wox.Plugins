@@ -1,0 +1,12 @@
+{
+    "ID":"fa6e1c66-445e-47cd-b48b-ed313203fe87",
+    "ActionKeyword":"!",
+    "Name":"MyMemory",
+    "Description":"Text translation via MyMemory api",
+    "Author":"Lifailon",
+    "Version":"0.1.0",
+    "Language":"Python",
+    "Website":"https://github.com/Lifailon/Wox.Plugins",
+    "IcoPath":"logo.png",
+    "ExecuteFileName":"main.py"
+}

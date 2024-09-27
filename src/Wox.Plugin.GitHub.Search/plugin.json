@@ -1,0 +1,12 @@
+{
+    "ID": "fa6e1c66445e47cdb48bed313203fe88",
+    "ActionKeyword": "git",
+    "Name": "GitHub Search",
+    "Description": "Search repositories on GitHub via api",
+    "Author":"Lifailon",
+    "Version": "0.1.0",
+    "Language": "Python",
+    "Website":"https://github.com/Lifailon/Wox.Plugins",
+    "IcoPath": "logo.png",
+    "ExecuteFileName": "main.py"
+}

@@ -20,7 +20,7 @@ Installation: `wpm install MyMemory` from [Wox Plugins Repository](http://www.wo
 </h1>
 
 <h1 align="left">
-    <img src="src/Wox.Plugin.LanguageTool//logo.png" width="32" />
+    <img src="src/Wox.Plugin.LanguageTool/logo.png" width="32" />
     Wox.Plugin.LanguageTool
 </h1>
 
@@ -28,8 +28,8 @@ Check texts for style and grammar via LanguageTool api.
 
 The hotkey is used: `@`
 
-Installation: `wpm install LanguageTool` from [Wox Plugins Repository](http://www.wox.one/plugin/427).
+Installation: `wpm install LanguageTool` from [Wox Plugins Repository](http://www.wox.one/plugin/428).
 
 <h1 align="center">
-    <img src="src/Wox.Plugin.LanguageTool//mymemory.jpg"/>
+    <img src="src/Wox.Plugin.LanguageTool/languagetool.jpg"/>
 </h1>

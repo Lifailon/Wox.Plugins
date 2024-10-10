@@ -1,0 +1,12 @@
+{
+    "ID": "fa6e1c66445e47cdb48bed313203fe90",
+    "ActionKeyword": "#",
+    "Name": "Torrent Search",
+    "Description": "Search for distributions in torrent trackers RuTracker, Kinozal, RuTor and NoName-Club via TorAPI",
+    "Author":"Lifailon",
+    "Version": "0.2.0",
+    "Language": "Python",
+    "Website":"https://github.com/Lifailon/Wox.Plugins",
+    "IcoPath": "rutracker.png",
+    "ExecuteFileName": "main.py"
+}

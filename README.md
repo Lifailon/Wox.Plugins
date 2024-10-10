@@ -24,7 +24,7 @@ An example of a search in RuTracker: `# 1 The Rookie`.
     <img src="src/Wox.Plugin.Torrent.Search/search.jpg"/>
 </h5>
 
-Installation: `wpm install Torrent.Search` from [Wox Plugins Repository](http://www.wox.one/plugin/431).
+Installation: `wpm install Torrent Search` from [Wox Plugins Repository](http://www.wox.one/plugin/431).
 
 <h2 align="left">
     <img src="src/Wox.Plugin.MyMemory/logo.png" width="22" />
@@ -65,7 +65,7 @@ Search repositories on GitHub via api.
 
 The keyword is used: `git`
 
-Installation: `wpm install GitHub.Search` from [Wox Plugins Repository](http://www.wox.one/plugin/429).
+Installation: `wpm install GitHub Search` from [Wox Plugins Repository](http://www.wox.one/plugin/429).
 
 <h1 align="center">
     <img src="src/Wox.Plugin.GitHub.Search/githubsearch.jpg"/>

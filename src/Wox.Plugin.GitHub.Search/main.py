@@ -1,13 +1,20 @@
 import requests
+import webbrowser
 from wox import Wox
 
 def search_github(query):
     results = []
+    if len(query.strip()) < 3:
+        results.append({
+            "Title": "Enter at least 3 characters for search",
+            "SubTitle": "",
+            "IcoPath": "logo.png"
+        })
+        return results
     if query:
         url = f"https://api.github.com/search/repositories?q={query}"
         response = requests.get(url)
         data = response.json()
-
         if response.status_code == 200:
             if 'items' in data:
                 for item in data['items']:
@@ -29,14 +36,12 @@ def search_github(query):
                 "SubTitle": '',
                 "IcoPath": "err.png"
             })
-
     if not results:
         results.append({
             "Title": 'No results found',
             "SubTitle": '',
             "IcoPath": "err.png"
         })
-
     return results
 
 class GithubSearch(Wox):
@@ -44,7 +49,6 @@ class GithubSearch(Wox):
         return search_github(query)
 
     def openUrl(self, url):
-        import webbrowser
         webbrowser.open(url)
 
 if __name__ == "__main__":

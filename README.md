@@ -12,6 +12,8 @@ All plugins are published in the [plugin repository](http://www.wox.one/u/70837)
 
 Search distributions in **RuTracker**, **Kinozal**, **RuTor** and **NoName-Club** torrent trackers via [TorAPI](https://github.com/Lifailon/TorAPI).
 
+Installation: `wpm install Torrent Search` from [Wox Plugins Repository](http://www.wox.one/plugin/431).
+
 The hotkey is used: `#` and the selected supplier in the range from 1 to 4.
 
 <h5 align="center">
@@ -24,8 +26,6 @@ An example of a search in RuTracker: `# 1 The Rookie`.
     <img src="src/Wox.Plugin.Torrent.Search/search.jpg"/>
 </h5>
 
-Installation: `wpm install Torrent Search` from [Wox Plugins Repository](http://www.wox.one/plugin/431).
-
 <h2 align="left">
     <img src="src/Wox.Plugin.MyMemory/logo.png" width="22" />
     MyMemory Translator
@@ -33,9 +33,9 @@ Installation: `wpm install Torrent Search` from [Wox Plugins Repository](http://
 
 Fast text translation in MyMemory via free api. Supports translation between Russian and English by default.
 
-The hotkey is used: `!`
-
 Installation: `wpm install MyMemory` from [Wox Plugins Repository](http://www.wox.one/plugin/427).
+
+The hotkey is used: `!`
 
 <h1 align="center">
     <img src="src/Wox.Plugin.MyMemory/mymemory.jpg"/>
@@ -48,9 +48,9 @@ Installation: `wpm install MyMemory` from [Wox Plugins Repository](http://www.wo
 
 Check texts for style and grammar via LanguageTool api.
 
-The hotkey is used: `@`
-
 Installation: `wpm install LanguageTool` from [Wox Plugins Repository](http://www.wox.one/plugin/428).
+
+The hotkey is used: `@`
 
 <h1 align="center">
     <img src="src/Wox.Plugin.LanguageTool/languagetool.jpg"/>
@@ -63,9 +63,9 @@ Installation: `wpm install LanguageTool` from [Wox Plugins Repository](http://ww
 
 Search repositories on GitHub via api.
 
-The keyword is used: `git`
-
 Installation: `wpm install GitHub Search` from [Wox Plugins Repository](http://www.wox.one/plugin/429).
+
+The keyword is used: `git`
 
 <h1 align="center">
     <img src="src/Wox.Plugin.GitHub.Search/githubsearch.jpg"/>

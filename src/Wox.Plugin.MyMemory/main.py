@@ -1,26 +1,28 @@
-import webbrowser
 import requests
+import webbrowser
 from wox import Wox
 
-# Целевой язык перевода (по умолчанию русский)
+# Target language of translation (default Russian)
 LANGUAGE = 'ru'
 
 def translate(query):
     query_modified = query.strip().lower()
     results = []
-
+    if len(query_modified) < 5:
+        results.append({
+            "Title": "Enter at least 5 characters for translate",
+            "SubTitle": "",
+            "IcoPath": "logo.png"
+        })
+        return results
     if query_modified:
-        # Массив из английских букв
+        # Array of English letters
         en = set(chr(i) for i in range(ord('a'), ord('z') + 1))
-        # Определяем язык перевода (с английского на русский или наоборот)
+        # Determine the translation language (from English into Russian or vice versa)
         from_lang, to_lang = ('en', LANGUAGE) if query_modified[0] in en else (LANGUAGE, 'en')
-        
-        # Выполняем запрос к API MyMemory
         url_api = "https://api.mymemory.translated.net/get?q={query}&langpair={from_lang}|{to_lang}&mt=1"
         response = requests.get(url_api.format(query=query_modified, from_lang=from_lang, to_lang=to_lang))
         data = response.json()
-
-        # Проверяем результат и добавляем его в список
         if 'matches' in data:
             for match in data['matches']:
                 if match['translation']:
@@ -34,14 +36,12 @@ def translate(query):
                             'dontHideAfterAction': False
                         }
                     })
-    
     if not results:
         results.append({
             "Title": 'Translation not found',
             "SubTitle": '',
             "IcoPath": "logo.png"
         })
-
     return results
 
 class Translate(Wox):

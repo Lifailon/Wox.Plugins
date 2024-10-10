@@ -1,4 +1,5 @@
 import requests
+import webbrowser
 from wox import Wox
 
 providerList = {
@@ -49,7 +50,6 @@ def TorAPI(provider, query):
 class getProvider(Wox):
     def query(self, query):
         results = []
-        # Если запрос пустой или не соответствует ключам в providerList, показываем список провайдеров
         if not query or query.split()[0] not in providerList.keys():
             for name in providerList:
                 results.append({
@@ -63,20 +63,17 @@ class getProvider(Wox):
                 })
         else:
             provider, search_query = query.split(maxsplit=1)
-            # Проверка на минимальное количество символов в поисковом запросе
             if len(search_query) < 3:
                 results.append({
-                    "Title": "Enter at least 3 characters to search",
+                    "Title": "Enter at least 3 characters for search",
                     "SubTitle": f"Search on {providerList[provider]}",
                     "IcoPath": f"{providerList[provider].lower()}.png"
                 })
             else:
                 results = TorAPI(providerList.get(provider).lower(), search_query)
-
         return results
 
     def openUrl(self, url):
-        import webbrowser
         webbrowser.open(url)
 
 if __name__ == "__main__":

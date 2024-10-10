@@ -2,7 +2,7 @@
     "ID": "fa6e1c66445e47cdb48bed313203fe90",
     "ActionKeyword": "#",
     "Name": "Torrent Search",
-    "Description": "Search for distributions in torrent trackers RuTracker, Kinozal, RuTor and NoName-Club via TorAPI",
+    "Description": "Search distributions in RuTracker, Kinozal, RuTor and NoName-Club torrent trackers via TorAPI",
     "Author":"Lifailon",
     "Version": "0.2.0",
     "Language": "Python",

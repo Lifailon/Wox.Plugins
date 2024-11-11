@@ -70,3 +70,33 @@ The keyword is used: `git`
 <h1 align="center">
     <img src="src/Wox.Plugin.GitHub.Search/githubsearch.jpg"/>
 </h1>
+
+<h2 align="left">
+    <img src="src/Wox.Plugin.GitLab.Search/logo.png" width="22" />
+    GitLab Search
+</h2>
+
+Search repositories on GitLab via api.
+
+Installation: `wpm install GitLab Search` from [Wox Plugins Repository](http://www.wox.one/plugin/432).
+
+The keyword is used: `lab`
+
+<h1 align="center">
+    <img src="src/Wox.Plugin.GitLab.Search/gitlabsearch.jpg"/>
+</h1>
+
+<h2 align="left">
+    <img src="src/Wox.Plugin.NPM.Search/logo.png" width="22" />
+    NPM Search
+</h2>
+
+Search javascript packages on Node Package Manager via api.
+
+Installation: `wpm install NPM Search` from [Wox Plugins Repository](http://www.wox.one/plugin/433).
+
+The keyword is used: `mpm`
+
+<h1 align="center">
+    <img src="src/Wox.Plugin.NPM.Search/npmsearch.jpg"/>
+</h1>

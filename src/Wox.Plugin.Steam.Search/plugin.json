@@ -1,0 +1,12 @@
+{
+    "ID": "fa6e1c66445e47cdb48bed313203fe93",
+    "ActionKeyword": "steam",
+    "Name": "Steam Search",
+    "Description": "Search games on Steam Store via api",
+    "Author":"Lifailon",
+    "Version": "0.1.0",
+    "Language": "Python",
+    "Website":"https://github.com/Lifailon/Wox.Plugins",
+    "IcoPath": "logo.png",
+    "ExecuteFileName": "main.py"
+}
